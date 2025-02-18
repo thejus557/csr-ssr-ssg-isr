@@ -24,7 +24,7 @@ export default async function Home() {
               <div className="relative">
                 <a href="#" className="block">
                   <Image
-                    priority
+                    priority={true}
                     className="w-full h-60 object-cover rounded-t-lg"
                     width={500}
                     height={300}
